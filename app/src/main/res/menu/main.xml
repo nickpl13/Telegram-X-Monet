@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/fragment_generator"
+        android:id="@+id/generatorFragment"
+        android:title="@string/fragment_generator" />
+    <item
+        android:icon="@drawable/fragment_about"
+        android:id="@+id/aboutFragment"
+        android:title="@string/fragment_about" />
+</menu>

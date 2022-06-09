@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/_232_01.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/app_foreground.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/app_monet.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/fragment_about.xml" value="0.2065" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/fragment_generator.xml" value="0.2075" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_about_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_dark_mode_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_dark_mode_24_filled.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_foreground.xml" value="0.173" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_light_mode_24_filled.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_monet.xml" value="0.174" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/ic_palette_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/info-24px.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/palette-24px.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/round-info-24px.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/round_dark_mode_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/round_light_mode_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/round_palette_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout-ldltr/credits_card.xml" value="0.2" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/about_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/activity_main.xml" value="0.2627257799671593" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/credits_card.xml" value="0.2" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/dark_card.xml" value="0.5" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/fragment_generator.xml" value="0.2" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/layout/light_card.xml" value="0.1" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/menu/main.xml" value="0.2" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/GitHub/TgX/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.174" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_dark_mode_24.xml" value="0.2105" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_light_mode_24.xml" value="0.169" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_palette_24.xml" value="0.169" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/layout/about_card.xml" value="0.2975630611372381" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/layout/activity_main.xml" value="0.29379485014774165" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/layout/dark_card.xml" value="0.2975630611372381" />
+        <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/layout/light_card.xml" value="0.2975630611372381" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/drawable/ic_foreground.xml" value="0.14" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/drawable/ic_outline_dark_mode_24.xml" value="0.14" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/drawable/ic_outline_light_mode_24.xml" value="0.14" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/drawable/ic_telegram.xml" value="0.1965" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/programming/android/Telegram-Monet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.193" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.134" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1315" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1315" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

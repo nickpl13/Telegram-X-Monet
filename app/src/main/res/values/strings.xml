@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App names -->
+    <string name="app_name" translatable="false">Telegram X Monet</string>
+    <string name="app_name_short" translatable="false">TgX Monet</string>
+    <string name="toolbar_title">Telegram X Monet</string>
+    <!--About card -->
+    <string name="about_card_description">Material You themes generator.</string>
+    <string name="about_card_github">GitHub</string>
+    <string name="about_card_title" translatable="false">Telegram X Monet | %s</string>
+    <string name="about_card_telegram">Telegram</string>
+    <!--About card -->
+    <string name="credits_card_description">Credits</string>
+    <string name="credits_card_developer">Developer: nickpl13</string>
+    <string name="credits_card_icon">Icon: thedise</string>
+    <string name="credits_card_app1">Code: 8055, TIDI, R4IN80W, DPROSAN, G_Alex</string>
+    <string name="credits_card_app2">Interface: iTaysonLab</string>
+    <string name="about_card_source">Source</string>
+    <!--Dark theme card -->
+    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme_description">Creates theme with dynamic color.\nGreat for the night.</string>
+    <!--Light theme card -->
+    <string name="light_theme">Light theme</string>
+    <string name="light_theme_description">Creates theme with dynamic color.\nGreat for the day.</string>
+    <!--Other -->
+    <string name="setup_card_button">Share</string>
+    <!--Navigation bar -->
+    <string name="fragment_generator">Generator</string>
+    <string name="fragment_about">About</string>
+</resources>

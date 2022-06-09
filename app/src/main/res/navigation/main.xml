@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/generatorFragment">
+
+    <fragment
+        android:id="@+id/generatorFragment"
+        android:name="com.tgx.monet.GeneratorFragment"
+        android:label="@string/app_name" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.tgx.monet.AboutFragment"
+        android:label="@string/fragment_about" />
+</navigation>

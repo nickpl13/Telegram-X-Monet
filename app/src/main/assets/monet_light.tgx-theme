@@ -1,0 +1,97 @@
+!
+name: "TgX Monet Light"
+time: 1632386514
+author: "tgxmonet"
+@
+bubbleCorner: 19
+bubbleCornerMerged: 10
+bubbleOutline, lightStatusBar, parentTheme: 1
+bubbleOutlineSize, shadowDepth, wallpaperId, wallpaperOverrideButton, wallpaperOverrideDate, wallpaperOverrideMediaReply, wallpaperOverrideOverlay, wallpaperOverrideTime, wallpaperOverrideUnread: 0
+wallpaperUsageId: 1
+imageCorner: 8
+#
+nameInactive, nameRed, nameOrange, nameYellow, nameGreen, nameCyan,  nameBlue, nameViolet, namePink: #a1_600x
+inlineText, inlineIcon, inlineOutline, bubbleIn_textLink, messageAuthor, messageVerticalLine, textLink: #a1_700x
+bubbleOut_inlineOutline, bubbleOut_separator, bubbleOut_textLink, bubbleOut_messageAuthor, bubbleOut_chatVerticalLine: #a1_600x
+attachContact, confettiRed: #EA4335
+attachFile: #F9AB00
+attachInlineBot: #78909C
+attachLocation, confettiGreen: #34A853
+attachPhoto, confettiBlue: #4285F4
+avatarArchive, avatarReplies, avatarReplies_big, avatarSavedMessages, avatarSavedMessages_big, bubbleOut_file, file: #a3_600x
+avatarArchivePinned, avatarInactive, avatarInactive_big: #90A4AE
+avatarBlue, avatarBlue_big: #669DF6
+avatarCyan, avatarCyan_big: #4ECDE6
+avatarGreen, avatarGreen_big: #5BB974
+avatarOrange, avatarOrange_big: #FA903E
+avatarPink, avatarPink_big: #FF63B8
+avatarRed, avatarRed_big: #EE675C
+avatarViolet, avatarViolet_big: #AF5CF7
+avatarYellow, avatarYellow_big: #FCC934
+background, passcode, filling, bubble_chatBackground, chatBackground, chatKeyboard, chatKeyboardButton, circleButtonChat: #a1_10x
+background_icon, headerBarCallMuted: #8E918F
+background_text, background_textLight, chatListIcon, iv_caption, iv_pageAuthor, iv_pageFooter, ivHeaderIcon, playerCoverIcon, textPlaceholder: #747775
+badge, bubble_buttonText_noWallpaper, bubbleIn_progress, bubbleOut_inlineIcon, bubbleOut_inlineText, bubbleOut_progress, bubbleOut_ticksRead, chatListAction, chatSendButton, checkActive, circleButtonActive, circleButtonRegular, controlActive, fillingPositive, headerBarCallActive, headerLightIcon, headerLightText, iconActive, inputActive, introSectionActive, iv_textLink, iv_textMarkedLink, messageSwipeBackground, notification, notificationLink, notificationPlayer, passcodeIcon, playerButtonActive, profileSectionActive, profileSectionActiveContent, progress, promoContent, sectionedScrollBarActive, seekDone, sliderActive, textNeutral, textSearchQueryHighlight, ticksRead, fileAttach, online: #a1_600x
+badgeFailed, headerRemoveBackgroundHighlight, iconNegative, inputNegative, textNegative, togglerNegative: #B3261E
+badgeMuted: #E1E3E1
+badgeMutedText, bubble_dateText_noWallpaper, bubble_mediaReplyText_noWallpaper, bubble_mediaTimeText_noWallpaper, bubble_messageCheckOutlineNoWallpaper, bubble_overlayText_noWallpaper, controlInactive, headerIcon, headerTabActive, headerTabInactiveText, iv_blockQuote, playerButton: #444746
+bubble_button, bubble_buttonRipple, bubble_date, bubble_mediaReply, bubble_mediaTime, bubble_overlay, bubble_unread: #5C5F5E99
+bubble_button_noWallpaper, bubble_mediaReply_noWallpaper, bubble_overlay_noWallpaper, bubble_unread_noWallpaper, promo, unread: #a1_600x12
+bubble_buttonRipple_noWallpaper: #a1_600x18
+sectionedScrollBarActiveContent: #FFF
+bubble_chatSeparator, chatSeparator, separator, shareSeparator, statusBar: #0000
+bubble_date_noWallpaper: #FFFFFFF5
+bubble_mediaOverlay, statusBarLegacy: #0005
+bubble_mediaTime_noWallpaper: #FFFFFFDE
+bubble_messageSelection: #a1_100x24
+bubble_messageSelectionNoWallpaper, messageSelection: #a1_100x3D
+bubbleIn_background, fillingPressed, playerCoverPlaceholder, seekEmpty: #n1_50x
+bubbleIn_pressed: #5E5E5E1A
+bubbleIn_separator, chatListMute, introSection, seekReady: #a1_300x
+bubbleIn_text, bubbleOut_text, headerTabActiveText, headerText, iv_header, iv_pageTitle, iv_text, iv_textMarked, iv_textReference, passcodeText, text, unreadText, bubble_unreadText_noWallpaper: #1F1F1F
+bubbleIn_textLinkPressHighlight, bubbleOut_textLinkPressHighlight, iv_textCodeBackgroundPressed, iv_textLinkPressHighlight, iv_textMarkedLinkPressHighlight, textLinkPressHighlight: #a1_600x1f
+bubbleIn_time, circleButtonChatIcon, icon, iconLight, iv_blockQuoteLine, iv_icon, iv_pageSubtitle, iv_pullQuote, iv_textCode, textLight, ticks: #5C5F5E
+bubbleOut_background: #a2_100x
+bubbleOut_chatCorrectChosenFilling, circleButtonPositive, messageCorrectChosenFilling: #1E8E3E
+bubbleOut_chatCorrectFilling, bubbleOut_waveformActive, chatListVerify, messageCorrectFilling, waveformActive: #a1_600x
+bubbleOut_chatNegativeFilling, circleButtonNegative, fillingNegative, messageNegativeLine: #D93025
+bubbleOut_messageAuthorPsa, iconPositive, inputPositive, messageAuthorPsa, notificationSecure, textSecure: #146C2E
+bubbleOut_pressed: #4A5B781A
+bubbleOut_ticks, bubbleOut_time: #4A5B78
+bubbleOut_waveformInactive, waveformInactive: #a1_600x90
+caption_textLink, tooltip_textLink: #a1_300x
+caption_textLinkPressHighlight, tooltip_textLinkPressHighlight: #a1_300x33
+circleButtonNewChannel: #FFDF99
+circleButtonNewChannelIcon: #754200
+circleButtonNewChat: #D3E3FD
+circleButtonNewChatIcon: #0842A0
+circleButtonNewGroup: #FCD5D4
+circleButtonNewGroupIcon: #8C1D18
+circleButtonNewSecret: #C4EED0
+circleButtonNewSecretIcon: #0F5223
+circleButtonOverlay, headerButton: #a1_100x
+circleButtonOverlayIcon, circleButtonThemeIcon, headerButtonIcon: #001D35
+circleButtonTheme: #E3E3E3
+confettiCyan: #24C1E0
+confettiPurple: #A142F4
+confettiYellow: #FBBC04
+fileYellow, fileGreen, fileRed: #a3_600x
+headerBackground, headerLightBackground, headerPickerBackground, iv_chatLinkBackground, iv_preBlockBackground, iv_textCodeBackground, overlayFilling, ivHeader: #n1_50x
+headerBarCallIncoming: #0F9D58
+headerRemoveBackground: #DCB4B8
+inputInactive, iv_separator: #0003
+iv_textMarkedBackground: #FEEFC3
+placeholder: #0000000F
+previewBackground: #FFFFFFE6
+sectionedScrollBar: #0000007F
+sliderInactive: #A9ACAA
+snackbarUpdate: #01875F
+statusBarContent: #0009
+textSelectionHighlight: #a1_600x66
+togglerActive, togglerPositive: #a1_600x
+togglerActiveBackground, togglerPositiveBackground: #a1_600x4D
+togglerInactive: #434645
+togglerInactiveBackground: #4346454D
+togglerNegativeBackground: #B3261E4D
+tooltip: #444746F5
+transparentEditor: #000000C0

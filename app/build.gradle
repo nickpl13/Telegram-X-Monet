@@ -1,0 +1,92 @@
+import java.nio.file.Paths
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    signingConfigs {
+        release {
+        storeFile file('E:\\Programms\\Android Studio 2021\\key1.jks')
+            storePassword '130513'
+            keyAlias 'key1'
+            keyPassword '130513'
+        }
+    }
+    compileSdk 32
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        applicationId "com.tgx.monet"
+        minSdk 31
+        targetSdk 32
+        versionCode 401
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    packagingOptions {
+        resources {
+            excludes += "**"
+        }
+    }
+
+    dependenciesInfo.includeInApk false
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "androidx.navigation:navigation-fragment-ktx:2.4.2"
+    implementation "androidx.navigation:navigation-ui-ktx:2.4.2"
+}
+
+def optimizeReleaseRes = task('optimizeReleaseRes').doLast {
+    def aapt2 = Paths.get(project.android.sdkDirectory.path, 'build-tools', project.android.buildToolsVersion, 'aapt2')
+    def zip = Paths.get(
+            project.buildDir.path,
+            "intermediates",
+            "optimized_processed_res",
+            "release",
+            "resources-release-optimize.ap_"
+    )
+    def optimized = new File("${zip}.opt")
+    def cmd = exec {
+        commandLine aapt2, 'optimize', '--collapse-resource-names',
+                '-o', optimized, zip
+        ignoreExitValue false
+    }
+    if (cmd.exitValue == 0) {
+        delete(zip)
+        optimized.renameTo("$zip")
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'optimizeReleaseResources') {
+        task.finalizedBy optimizeReleaseRes
+    }
+}
